@@ -28,6 +28,6 @@ RUN chmod 644 /znc.conf.default
 
 VOLUME /znc-data
 
-EXPOSE 6697
+EXPOSE 6667
 ENTRYPOINT ["/entrypoint.sh"]
 CMD [""]
