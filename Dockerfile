@@ -27,7 +27,7 @@ ADD znc.conf.default /znc.conf.default
 RUN chmod 644 /znc.conf.default
 
 VOLUME /znc-data
-VOLUME /znc-cert
+
 
 
 EXPOSE 6667
