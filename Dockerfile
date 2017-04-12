@@ -1,5 +1,5 @@
-# version 1.6.1-2
-# docker-version 1.11.1
+# version 1.6.5
+# 
 FROM debian:latest
 
 
@@ -27,6 +27,8 @@ ADD znc.conf.default /znc.conf.default
 RUN chmod 644 /znc.conf.default
 
 VOLUME /znc-data
+VOLUME /znc-cert
+
 
 EXPOSE 6667
 EXPOSE 6697
